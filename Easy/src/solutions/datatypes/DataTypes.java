@@ -1,4 +1,4 @@
-package solutions;
+package solutions.datatypes;
 import java.util.*;
 
 /**
