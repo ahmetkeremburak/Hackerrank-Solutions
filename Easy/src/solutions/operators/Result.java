@@ -17,7 +17,7 @@ public class Result {
     double tip_cost = meal_cost * ((double)tip_percent/100);
     double tax_cost = meal_cost * ((double)tax_percent/100);
     double result = meal_cost + tip_cost + tax_cost;
-    System.out.println((int)result);
+    System.out.println(Math.round(result));
 
     }
 }
