@@ -1,4 +1,4 @@
-package solutions.thehurdlerace;
+package solutions.thirtydaysofcode.thehurdlerace;
 
 import java.io.*;
 import java.util.*;

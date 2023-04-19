@@ -1,4 +1,4 @@
-package solutions.operators;
+package solutions.thirtydaysofcode.operators;
 
 import java.io.BufferedReader;
 import java.io.IOException;

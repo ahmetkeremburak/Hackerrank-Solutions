@@ -1,4 +1,4 @@
-package solutions.conditionals;
+package solutions.thirtydaysofcode.conditionals;
 import java.io.*;
 /**
  * @author Kerem

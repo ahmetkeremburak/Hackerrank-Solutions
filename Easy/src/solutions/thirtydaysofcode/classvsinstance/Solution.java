@@ -1,4 +1,4 @@
-package solutions.classvsinstance;
+package solutions.thirtydaysofcode.classvsinstance;
 
 import java.io.*;
 import java.util.*;

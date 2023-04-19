@@ -1,4 +1,4 @@
-package solutions.day6;
+package solutions.thirtydaysofcode.day6;
 import java.io.*;
 
 /**

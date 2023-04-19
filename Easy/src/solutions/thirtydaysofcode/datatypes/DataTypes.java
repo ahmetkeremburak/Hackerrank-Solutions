@@ -1,4 +1,4 @@
-package solutions.datatypes;
+package solutions.thirtydaysofcode.datatypes;
 import java.util.*;
 
 /**

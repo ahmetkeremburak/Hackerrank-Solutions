@@ -1,4 +1,4 @@
-package solutions.loops;
+package solutions.thirtydaysofcode.loops;
 
 import java.io.*;
 

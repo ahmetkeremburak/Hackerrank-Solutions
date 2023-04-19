@@ -1,4 +1,4 @@
-package solutions.operators;
+package solutions.thirtydaysofcode.operators;
 
 public class Result {
 
