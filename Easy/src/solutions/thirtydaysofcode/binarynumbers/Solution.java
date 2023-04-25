@@ -1,8 +1,14 @@
 package solutions.thirtydaysofcode.binarynumbers;
 
 import java.io.*;
-import java.util.HashMap;
+import java.util.*;
 
+/**
+ * Read console input "n" which 1 <= n <= 100. Calculate the binary expression of "n",
+ * write the number of most consecutive "1" in the binary expression of "n".    
+ * @author Ahmet Kerem Burak keremburak00@gmail.com
+ *
+ */
 public class Solution {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -13,13 +19,14 @@ public class Solution {
 		int n = Integer.parseInt(bufferedReader.readLine().trim());
 		
 		String binary = Integer.toBinaryString(n);
-		char[] binaries = binary.toCharArray();
 		
-		int result = 0;
-		int counter = 0;
-		for(char c : binaries){
-			
-		}
+		String[] binarySplit = binary.split("0");
+		
+		List<String> binaryList = Arrays.asList(binarySplit);
+		
+		int max = binaryList.stream().map(String::length).max(Integer::compareTo).get();
+		
+		bufferedWriter.write(String.valueOf(max));
 		
 		
 		bufferedReader.close();
