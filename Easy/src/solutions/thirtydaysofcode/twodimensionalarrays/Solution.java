@@ -39,7 +39,7 @@ public class Solution {
 		});
 		
 		
-		int maxSum = 0;
+		int maxSum = Integer.MIN_VALUE;
 		for(int i = 0; i < 4; i++) {
 			for(int j = 0; j < 4; j++) {
 				int hourglassSum = arr.get(i).get(j) + arr.get(i).get(j + 1) +arr.get(i).get(j + 2)
